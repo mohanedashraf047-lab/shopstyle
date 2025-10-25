@@ -53,7 +53,7 @@ const UserInfo = () => {
     try {
       // ✅ Clean data before saving
       const cleanData = Object.fromEntries(
-        Object.entries(formData).filter(([_, v]) => v !== undefined)
+        Object.entries(formData).filter(([, v]) => v !== undefined)
       );
 
       // ✅ Create or update Firestore document

@@ -20,7 +20,7 @@ const Payment = () => {
   };
   return (
     <>
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-12 mt-24">
         <h1 className="text-3xl font-bold text-center mb-10">
           Payment Details
         </h1>
